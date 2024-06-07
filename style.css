@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0 0 0;
+   background:linear-gradient(to right,black,#4B0082);
+   color: white;
+}
+
+h1 {
+    margin: 0;
+    color: #FF00FF;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a{
+    margin-top: 125px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background:linear-gradient(to right,#FF00FF, black);
+}
+
+nav a:hover {
+    background:linear-gradient(to right,green,black )
+}
+
+main{
+    text-align: center;
+    display: flex;
+   padding: 50px;
+   background-image: url('fundo.jpg');
+background-size: 150%;
+   background-position:center;
+background-repeat: no-repeat;
+    
+}
+
+.card{
+    background-color: white;
+    width:250px;
+    border: 6px solid black;
+    padding: 30px;
+    margin: 30px;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+img {
+    height: 250px;
+}
+
+p.preco {
+    color:green;
+    font-weight: bold;
+}
+
+footer {
+    background:linear-gradient(to right,black,#4B0082);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
